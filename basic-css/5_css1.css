@@ -40,6 +40,10 @@ h3 {
     padding: 18px;
 }
 
+section a {
+    color: purple;
+}
+
 table, tr, th, td {
     border: 1px solid;
     border-collapse: collapse;

@@ -1,1 +1,1 @@
-Baic CSS Assignment
+Basic CSS Assignment

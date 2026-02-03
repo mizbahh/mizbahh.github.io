@@ -1,0 +1,57 @@
+body {
+    background-color: lightblue;
+}
+
+h1 {
+    text-align: center;
+    font-size: 45px;
+}
+
+h1, h2 {
+    font-family: Arial;
+}
+
+h2 {
+    font-size: 27px;
+}
+
+h3 {
+    font-size: 21px;
+}
+
+#paragraph2 {
+    background-color: white;
+    margin-left: 20px;
+    margin-right: 500px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    border-style: solid;
+    border-color: green;
+    border-width: 7px;
+    line-height: 30px;
+
+}
+
+.blue {
+    background-color: darkblue;
+    color: white;
+    padding: 18px;
+}
+
+table, tr, th, td {
+    border: 1px solid;
+    border-collapse: collapse;
+    padding: 8px;
+}
+
+th {
+    background-color: lightgray;
+    color: black;
+}
+
+tr, td {
+    background-color: white;
+    color: black;
+}

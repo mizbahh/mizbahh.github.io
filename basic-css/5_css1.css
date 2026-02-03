@@ -44,6 +44,10 @@ section a {
     color: maroon;
 }
 
+ol {
+    list-style-type: decimal-leading-zero;
+}
+
 table, tr, th, td {
     border: 1px solid;
     border-collapse: collapse;

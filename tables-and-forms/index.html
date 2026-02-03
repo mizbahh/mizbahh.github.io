@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Pizza Ordering Form</title>
+</head>
+<body>
+
+    <h1>Pizza Ordering Form</h1>
+
+    <form action="#" method="post">
+
+        <section>
+            <h2>Contact Information</h2>
+
+            <label>
+                Name:
+                <input type="text" name="name" required>
+            </label>
+            <br>
+
+            <label>
+                Phone:
+                <input type="tel" name="phone" required>
+            </label>
+            <br>
+
+            <label>
+                Email:
+                <input type="email" name="email" required>
+            </label>
+        </section>
+
+        <section>
+            <h2>Select Pizza Size</h2>
+
+            <label>
+                Pizza Size:
+                <select name="size" required>
+                    <option value="">Select Size</option>
+                    <option value="medium">Medium</option>
+                    <option value="medium">Large</option>
+                    <option value="xlarge">XLarge</option>
+                </select>
+            </label>
+        </section>
+
+        <section>
+            <h2>Select Sauce</h2>
+
+            <label>
+                <input type="radio" name="sauce" value="marinara" required>
+                Marinara
+            </label>
+            <br>
+
+            <label>
+                <input type="radio" name="sauce" value="ranch" required>
+                Ranch
+            </label>
+            <br>
+
+            <label>
+                <input type="radio" name="sauce" value="none" required>
+                No Sauce
+            </label>
+        </section>
+
+        <section>
+            <h2>Select Toppings</h2>
+
+            <label>
+                <input type="checkbox" name="toppings" value="pepperoni">
+                Olives
+            </label>
+
+            <label>
+                <input type="checkbox" name="toppings" value="sausage">
+                Spinach
+            </label>
+            <br>
+
+            <label>
+                <input type="checkbox" name="toppings" value="mushrooms">
+                Mushrooms
+            </label>
+
+            <label>
+                <input type="checkbox" name="toppings" value="pineapple">
+                Pineapple
+            </label>
+            <br>
+
+            <label>
+                <input type="checkbox" name="toppings" value="peppers">
+                Chicken
+            </label>
+
+            <label>
+                <input type="checkbox" name="toppings" value="onions">
+                Extra Cheese
+            </label>
+        </section>
+
+        <section>
+            <h2>Additional Instructions</h2>
+
+            <textarea name="instructions" rows="4" cols="30">Add instructions</textarea>
+            <br>
+            <input type="submit" value="Submit">
+        
+        </section>
+
+    </form>
+
+    <section>
+
+        <br>
+        <table border="1.5">
+            <caption> List of My Favorite Video Games</caption>
+
+            <thead>
+                <tr>
+                    <th>Developer</th>
+                    <th>Title</th>
+                    <th>Year</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td rowspan="3">Bungie</td>
+                    <td>Halo</td>
+                    <td>2001</td>
+                </tr>
+                <tr>
+                    <td>Halo 2</td>
+                    <td>2004</td>
+                </tr>
+                <tr>
+                    <td>Halo 3</td>
+                    <td>2007</td>
+                </tr>
+                <tr>
+                    <td>Mojang</td>
+                    <td>Minecraft</td>
+                    <td>2011</td>
+                </tr>
+                <tr>
+                    <td colspan="3">Count: 4</td>
+                </tr>
+            </tbody>
+        </table>
+
+    </section>
+
+</body>
+</html>

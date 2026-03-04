@@ -1,0 +1,173 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #c8e8f0;
+  font-family: Georgia, serif;
+  min-height: 100vh;
+  padding: 40px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#main-card {
+  background: #fff;
+  border: 3px solid #d4a017;
+  border-radius: 20px;
+  padding: 30px 36px;
+  width: 100%;
+  max-width: 500px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 1.1rem;
+  font-weight: normal;
+  letter-spacing: 0.04em;
+  margin-bottom: 14px;
+  color: #333;
+}
+
+#search-row {
+  display: flex;
+  justify-content: center;
+  gap: 6px;
+  margin-bottom: 20px;
+}
+
+#pokemon-input {
+  padding: 5px 10px;
+  font-size: 0.95rem;
+  font-family: Georgia, serif;
+  border: 1px solid #aaa;
+  border-radius: 4px;
+  width: 200px;
+}
+
+#find-btn {
+  padding: 5px 14px;
+  font-family: Georgia, serif;
+  font-size: 0.95rem;
+  background: #fff;
+  border: 1px solid #aaa;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+#find-btn:hover {
+  background: #f0f0f0;
+}
+
+#error-msg {
+  text-align: center;
+  color: #b00;
+  font-size: 0.85rem;
+  min-height: 1.2em;
+  margin-bottom: 8px;
+}
+
+#pokemon-section {
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  gap: 14px;
+}
+
+#pokemon-section.active {
+  display: flex;
+}
+
+#pokemon-img {
+  width: 150px;
+  height: 150px;
+  object-fit: contain;
+  image-rendering: pixelated;
+}
+
+audio {
+  width: 100%;
+  max-width: 340px;
+}
+
+#moves-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 8px;
+  width: 100%;
+}
+
+#moves-section select {
+  width: 100%;
+  padding: 5px 8px;
+  font-family: Georgia, serif;
+  font-size: 0.88rem;
+  border: 1px solid #aaa;
+  border-radius: 4px;
+  background: #fff;
+}
+
+#add-btn {
+  padding: 6px 20px;
+  font-family: Georgia, serif;
+  font-size: 0.9rem;
+  background: #fff;
+  border: 1px solid #aaa;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+#add-btn:hover {
+  background: #f0f0f0;
+}
+
+#team-section {
+  width: 100%;
+  max-width: 500px;
+  margin-top: 20px;
+}
+
+#team-section h2 {
+  font-size: 1rem;
+  font-weight: normal;
+  color: #333;
+  margin-bottom: 10px;
+  font-family: Georgia, serif;
+}
+
+.team-member {
+  background: #fff;
+  border: 1px solid #c8c8c8;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  padding: 10px 14px;
+  margin-bottom: 8px;
+}
+
+.team-member img {
+  width: 58px;
+  height: 58px;
+  object-fit: contain;
+  image-rendering: pixelated;
+}
+
+.team-info h3 {
+  font-size: 0.9rem;
+  font-weight: bold;
+  text-transform: capitalize;
+  margin-bottom: 4px;
+  color: #222;
+}
+
+.team-info ul {
+  padding-left: 16px;
+  font-size: 0.85rem;
+  color: #555;
+  line-height: 1.65;
+  font-family: Georgia, serif;
+}
